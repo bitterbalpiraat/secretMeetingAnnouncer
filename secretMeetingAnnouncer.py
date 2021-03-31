@@ -23,7 +23,7 @@ import asyncio
 #initialize
 events = {}     # events dict with all upcoming events
 reminders = []  # reminderslist of all eventKeys with reminders on the way
-tMinus = 2      # Reminder time in minutes before the start of the meeting
+tMinus = 30      # Reminder time in minutes before the start of the meeting
 channels = {}   # dict of channels to message
 
 
