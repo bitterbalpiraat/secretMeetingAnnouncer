@@ -1,0 +1,501 @@
+{
+ "kind": "calendar#events",
+ "etag": "\"p32889kdprb4eu0g\"",
+ "summary": "Secret Network Events",
+ "description": "Secret Network Events Calendar, including committee meetings and more!",
+ "updated": "2021-03-24T10:20:50.794Z",
+ "timeZone": "America/Chicago",
+ "accessRole": "reader",
+ "defaultReminders": [],
+ "nextSyncToken": "CJCE0bnayO8CEJCE0bnayO8CGAEgnKjhrQE=",
+ "items": [
+  {
+   "kind": "calendar#event",
+   "etag": "\"3231673349724000\"",
+   "id": "67nmr2dpds0ndcruuncrh6k7tl",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NjdubXIyZHBkczBuZGNydXVuY3JoNms3dGxfMjAyMDEyMDlUMTYwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "created": "2020-12-10T18:05:28.000Z",
+   "updated": "2021-03-15T19:31:14.862Z",
+   "summary": "Governance Committee Call",
+   "description": "The Governance Committee will be meeting every Wednesday, at 3 pm UTC. \n\nWe meet on Discord, in the Community Meeting Room.",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-12-09T10:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2020-12-09T10:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=WE"
+   ],
+   "visibility": "public",
+   "iCalUID": "67nmr2dpds0ndcruuncrh6k7tl@google.com",
+   "sequence": 0,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3231673364362000\"",
+   "id": "3hjhvd57708gub2s6nltn1snca",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M2hqaHZkNTc3MDhndWIyczZubHRuMXNuY2FfMjAyMTAxMDRUMTYwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "created": "2021-01-04T05:00:17.000Z",
+   "updated": "2021-03-15T19:31:22.181Z",
+   "summary": "Awareness Committee",
+   "description": "The Awareness Committee meets every Monday at 4 pm UTC. \n\nWe meet on Discord, in the Meetings Room. ",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2021-01-04T10:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2021-01-04T11:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;UNTIL=20210315T045959Z;BYDAY=MO"
+   ],
+   "iCalUID": "3hjhvd57708gub2s6nltn1snca@google.com",
+   "sequence": 1,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3231673364362000\"",
+   "id": "3hjhvd57708gub2s6nltn1snca_R20210315T150000",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M2hqaHZkNTc3MDhndWIyczZubHRuMXNuY2FfMjAyMTAzMTVUMTUwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "created": "2021-01-04T05:00:17.000Z",
+   "updated": "2021-03-15T19:31:22.181Z",
+   "summary": "Awareness Committee",
+   "description": "The Awareness Committee meets every Monday at 3 pm UTC. \n\nWe meet on Discord, in the Meetings Room.",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2021-03-15T10:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2021-03-15T11:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=MO"
+   ],
+   "iCalUID": "3hjhvd57708gub2s6nltn1snca_R20210315T150000@google.com",
+   "sequence": 1,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3231673378478000\"",
+   "id": "6upabtemgjnntl1qup6jott77a",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NnVwYWJ0ZW1nam5udGwxcXVwNmpvdHQ3N2FfMjAyMDEyMDdUMTcwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "created": "2020-12-10T18:10:26.000Z",
+   "updated": "2021-03-15T19:31:29.239Z",
+   "summary": "Development Committee Meeting",
+   "description": "The Development Committee meeting will be every Monday at 5 pm UTC. \n\nWe meet on Discord, in the Community Meeting Room.",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-12-07T11:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2020-12-07T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;UNTIL=20210315T045959Z;BYDAY=MO"
+   ],
+   "visibility": "public",
+   "iCalUID": "6upabtemgjnntl1qup6jott77a@google.com",
+   "sequence": 1,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3231673378478000\"",
+   "id": "6upabtemgjnntl1qup6jott77a_R20210315T160000",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NnVwYWJ0ZW1nam5udGwxcXVwNmpvdHQ3N2FfMjAyMTAzMTVUMTYwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "created": "2020-12-10T18:10:26.000Z",
+   "updated": "2021-03-15T19:31:29.239Z",
+   "summary": "Development Committee Meeting",
+   "description": "The Development Committee meeting will be every Monday at 4 pm UTC. \n\nWe meet on Discord, in the Community Meeting Room.",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2021-03-15T11:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2021-03-15T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=MO"
+   ],
+   "visibility": "public",
+   "iCalUID": "6upabtemgjnntl1qup6jott77a_R20210315T160000@google.com",
+   "sequence": 1,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3231673403060000\"",
+   "id": "2to5u7fl4tbqegsg5todebs4q3_20201210T160000Z",
+   "status": "cancelled",
+   "recurringEventId": "2to5u7fl4tbqegsg5todebs4q3",
+   "originalStartTime": {
+    "dateTime": "2020-12-10T10:00:00-06:00"
+   }
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3231673464688000\"",
+   "id": "2to5u7fl4tbqegsg5todebs4q3",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MnRvNXU3Zmw0dGJxZWdzZzV0b2RlYnM0cTNfMjAyMDEyMTBUMTYwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "created": "2020-12-10T18:02:52.000Z",
+   "updated": "2021-03-15T19:32:12.344Z",
+   "summary": "Education Committee",
+   "description": "We'll be meeting in Discord, in the Meeting Room. \n\nHope to see everyone there!",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-12-10T10:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2020-12-10T11:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;UNTIL=20210318T045959Z;BYDAY=TH"
+   ],
+   "visibility": "public",
+   "iCalUID": "2to5u7fl4tbqegsg5todebs4q3@google.com",
+   "sequence": 0,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3231673464688000\"",
+   "id": "2to5u7fl4tbqegsg5todebs4q3_R20210318T150000",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MnRvNXU3Zmw0dGJxZWdzZzV0b2RlYnM0cTNfMjAyMTAzMThUMTUwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "created": "2020-12-10T18:02:52.000Z",
+   "updated": "2021-03-15T19:32:12.344Z",
+   "summary": "Education Committee",
+   "description": "The Education Committee meets every Thursday at 3 pm UTC.  We'll be meeting in Discord, in the Meeting Room. \n\nHope to see everyone there!",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2021-03-18T10:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2021-03-18T11:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=TH"
+   ],
+   "visibility": "public",
+   "iCalUID": "2to5u7fl4tbqegsg5todebs4q3_R20210318T150000@google.com",
+   "sequence": 0,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3231673482356000\"",
+   "id": "4eoo7lburvoehudasfdnogjvpk",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NGVvbzdsYnVydm9laHVkYXNmZG5vZ2p2cGtfMjAyMDEyMTBUMTkzMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "created": "2020-12-10T18:36:02.000Z",
+   "updated": "2021-03-15T19:32:21.178Z",
+   "summary": "Analytics Committee Meeting ",
+   "description": "The Analytics Committee will meet every Thursday at 6:30 pm UTC. \n\nWe will be meeting on Discord, in the Community Meeting Room.",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-12-10T13:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2020-12-10T14:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=TH"
+   ],
+   "visibility": "public",
+   "iCalUID": "4eoo7lburvoehudasfdnogjvpk@google.com",
+   "sequence": 0,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3231673851198000\"",
+   "id": "098iqj419aqhsbhamu5n5hfb8e",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MDk4aXFqNDE5YXFoc2JoYW11NW41aGZiOGVfMjAyMDEyMTFUMTYwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "created": "2020-12-10T18:45:24.000Z",
+   "updated": "2021-03-15T19:35:25.599Z",
+   "summary": "Website Committee Meeting ",
+   "description": "The Website Committee will be meeting every Friday at 3 pm UTC. \n\nWe will meet on Discord, in the Community Meeting Room.",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-12-11T10:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2020-12-11T11:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=FR"
+   ],
+   "visibility": "public",
+   "iCalUID": "098iqj419aqhsbhamu5n5hfb8e@google.com",
+   "sequence": 1,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3232870596522000\"",
+   "id": "1d3arkkdh7kredlrrr897r4vol",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MWQzYXJra2RoN2tyZWRscnJyODk3cjR2b2wgYjFjdjk4NWxkOWgwcWRjZ2IwMmE3OTVlbDRAZw",
+   "created": "2021-03-22T17:43:34.000Z",
+   "updated": "2021-03-22T17:48:18.261Z",
+   "summary": "Sienna Network AMA",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2021-03-24T11:00:00-05:00"
+   },
+   "end": {
+    "dateTime": "2021-03-24T12:00:00-05:00"
+   },
+   "iCalUID": "1d3arkkdh7kredlrrr897r4vol@google.com",
+   "sequence": 0,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3232870909182000\"",
+   "id": "6d8bkh3pq66fqjlr0tu3e3e0he",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmQ4YmtoM3BxNjZmcWpscjB0dTNlM2UwaGVfMjAyMTAyMjVUMTcwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "updated": "2021-03-22T17:50:54.591Z",
+   "start": {
+    "dateTime": "2021-02-25T11:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2021-02-25T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;UNTIL=20210311T055959Z;BYDAY=TH"
+   ],
+   "visibility": "private",
+   "iCalUID": "6d8bkh3pq66fqjlr0tu3e3e0he@google.com"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3232870909182000\"",
+   "id": "6d8bkh3pq66fqjlr0tu3e3e0he_20210225T170000Z",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmQ4YmtoM3BxNjZmcWpscjB0dTNlM2UwaGVfMjAyMTAyMjVUMTcwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "updated": "2021-03-22T17:50:54.591Z",
+   "start": {
+    "dateTime": "2021-02-25T11:00:00-06:00"
+   },
+   "end": {
+    "dateTime": "2021-02-25T12:00:00-06:00"
+   },
+   "recurringEventId": "6d8bkh3pq66fqjlr0tu3e3e0he",
+   "originalStartTime": {
+    "dateTime": "2021-02-25T11:00:00-06:00"
+   },
+   "visibility": "private",
+   "iCalUID": "6d8bkh3pq66fqjlr0tu3e3e0he@google.com"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3232870909182000\"",
+   "id": "6d8bkh3pq66fqjlr0tu3e3e0he_20210304T170000Z",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmQ4YmtoM3BxNjZmcWpscjB0dTNlM2UwaGVfMjAyMTAzMDRUMTcwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "updated": "2021-03-22T17:50:54.591Z",
+   "start": {
+    "dateTime": "2021-03-04T11:00:00-06:00"
+   },
+   "end": {
+    "dateTime": "2021-03-04T12:00:00-06:00"
+   },
+   "recurringEventId": "6d8bkh3pq66fqjlr0tu3e3e0he",
+   "originalStartTime": {
+    "dateTime": "2021-03-04T11:00:00-06:00"
+   },
+   "visibility": "private",
+   "iCalUID": "6d8bkh3pq66fqjlr0tu3e3e0he@google.com"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3232870909182000\"",
+   "id": "6d8bkh3pq66fqjlr0tu3e3e0he_R20210311T170000",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmQ4YmtoM3BxNjZmcWpscjB0dTNlM2UwaGVfMjAyMTAzMTFUMTcwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "updated": "2021-03-22T17:50:54.591Z",
+   "start": {
+    "dateTime": "2021-03-11T11:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2021-03-11T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=TH"
+   ],
+   "visibility": "private",
+   "iCalUID": "6d8bkh3pq66fqjlr0tu3e3e0he_R20210311T170000@google.com"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3232875121114000\"",
+   "id": "1ajjt1brocepcu64h9r50ldnmc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MWFqanQxYnJvY2VwY3U2NGg5cjUwbGRubWNfMjAyMTAzMjJUMTgwMDAwWiBiMWN2OTg1bGQ5aDBxZGNnYjAyYTc5NWVsNEBn",
+   "created": "2021-03-22T18:26:00.000Z",
+   "updated": "2021-03-22T18:26:00.557Z",
+   "summary": "Biz Dev Committee Meetings ",
+   "creator": {
+    "email": "scrtfoundation@gmail.com"
+   },
+   "organizer": {
+    "email": "b1cv985ld9h0qdcgb02a795el4@group.calendar.google.com",
+    "displayName": "Secret Network Events",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2021-03-22T13:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2021-03-22T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=MO"
+   ],
+   "iCalUID": "1ajjt1brocepcu64h9r50ldnmc@google.com",
+   "sequence": 0,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+#TESTDATA
+testMeetings = [
+{'startUTC-5': '2021-03-31T04:29:00-05:00', 'endUTC-5': '2021-03-29T14:00:00-05:00', 'subject': 'Biz Dev Committee Meetings ', 'description': None, 'classification': 'Biz Dev'}
+,{'startUTC-5': '2021-03-31T04:31:00-05:00', 'endUTC-5': '2021-03-31T10:30:00-05:00', 'subject': 'Governance Committee Call', 'description': 'The Governance Committee will be meeting every Wednesday, at 3 pm UTC. \n\nWe meet on Discord, in the Community Meeting Room.', 'classification': 'Governance'}
+,{'startUTC-5': '2021-03-31T04:33:00-05:00', 'endUTC-5': '2021-04-01T11:00:00-05:00', 'subject': 'Education Committee', 'description': "The Education Committee meets every Thursday at 3 pm UTC.  We'll be meeting in Discord, in the Meeting Room. \n\nHope to see everyone there!", 'classification': 'Education'}
+,{'startUTC-5': '2021-03-31T04:34:30-05:00', 'endUTC-5': '2021-03-31T10:30:00-05:00', 'subject': 'Governance Committee Call', 'description': 'The Governance Committee will be meeting every Wednesday, at 3 pm UTC. \n\nWe meet on Discord, in the Community Meeting Room.', 'classification': 'Governance'}
+,{'startUTC-5': '2021-03-31T04:38:30-05:00', 'endUTC-5': '2021-03-31T10:30:00-05:00', 'subject': 'Governance Committee Call', 'description': 'The Governance Committee will be meeting every Wednesday, at 3 pm UTC. \n\nWe meet on Discord, in the Community Meeting Room.', 'classification': 'Governance'},
+]
