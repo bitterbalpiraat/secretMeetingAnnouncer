@@ -75,7 +75,6 @@ async def scheduleReminders(eventKey, secondsTillEvent):
     
     # add the eventKey to the reminders list while this function is running
     reminders.append(eventKey)
-    print("lock: "+eventKey)
     
     # format the time until the next event
         # hours, remainder = divmod(secondsTillEvent, 3600)
@@ -94,12 +93,12 @@ async def scheduleReminders(eventKey, secondsTillEvent):
     if timeTillFirstReminder > 0: #only notify at tMinus if thats in the future
     
         # sleep till tMinus
-        print("tMinus for "+eventKey+" in :"+str(timeTillFirstReminder/60)+" minutes.")
         await asyncio.sleep(timeTillFirstReminder)            
         
         # remind at tMinus
         embed = embedFactory(eventKey)
         await channels['general'].send(events[eventKey]['subject']+" starts in "+str(tMinus)+" minutes!", embed=embed)
+        await channels['telegram-bridge'].send(events[eventKey]['subject']+" starts in "+str(tMinus)+" minutes in the Discord meeting room!")
         if committeeChannel:
             await committeeChannel.send(events[eventKey]['subject']+" starts in "+str(tMinus)+" minutes!", embed=embed)
             
@@ -113,16 +112,15 @@ async def scheduleReminders(eventKey, secondsTillEvent):
     # remind at event start
     embedNoTimes = embedFactory(eventKey, False, False)
     if committeeChannel:
-        await committeeChannel.send(events[eventKey]['subject']+" starting now! ", embed=embedNoTimes)
-    await channels['general'].send(events[eventKey]['subject']+" start now! ", embed=embedNoTimes)
+        await committeeChannel.send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
+    await channels['general'].send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
+    await channels['telegram-bridge'].send(events[eventKey]['subject']+" starts now in the Discord meeting room!")
     
     
     # remove the event from the reminder list
     if eventKey in reminders:
         reminders.remove(eventKey)
-        print("unlock: "+eventKey)
 
-    
     
 # connect bot client
 client = discord.Client()
@@ -143,7 +141,6 @@ async def getCal():
         importedEvents = fetchUpcomingEvents()
     except:
         print("Error: couldn't get the upcoming events from the google calendar.")
-    print('Updated the calendar events.')
     
     # calculate time now
     now = datetime.now(UTC)  
@@ -177,7 +174,6 @@ async def getCal():
         
             # in case the reminders are already scheduled skip to the next event
             if eventKey in reminders: 
-                print(eventKey+" is locked!")
                 continue
         
             # datetime (t) straight from g calendar in utc-5(EST)        
@@ -189,10 +185,10 @@ async def getCal():
             # time till event
             d = startUTC-now
             s = d.total_seconds()
-            
-            # if time till next meeting is less than 1hr (the next cal update) + tMinus, schedule the reminder(s) 
+                        
+            # # if time till next meeting is less than 1hr (the next cal update) + tMinus, schedule the reminder(s) 
             if s < ((1*60*60)+(tMinus*60)) and s>0:
-                print("Trying to send reminders for: "+eventKey+" ...")
+                print("Sending reminders for: "+eventKey+" ...")
 
                 # loop instead of wait to run scheduleReminders in parallel 
                 loop = asyncio.get_event_loop()
@@ -201,16 +197,17 @@ async def getCal():
 @getCal.before_loop
 async def getCal_before():
     try: 
-        channels['general']     = client.get_channel(822120590935982103)
-        channels['Awareness']   = client.get_channel(826483962335068220)
-        channels['Development'] = client.get_channel(826506420009959484)
-        # channels['Governance']  = client.get_channel()
-        # channels['Education']   = client.get_channel()
-        # channels['Analytics']   = client.get_channel()
-        # channels['Website']     = client.get_channel()
-        # channels['Design']      = client.get_channel()
-        # channels['Infrastructure'] = client.get_channel()
-        channels['Biz Dev']     = client.get_channel(826501840757194773) 
+        channels['general']     = client.get_channel(360051864110235649)
+        channels['Awareness']   = client.get_channel(760897115466498089)
+        channels['Development'] = client.get_channel(760897182756503572)
+        channels['Governance']  = client.get_channel(682254187027103781)
+        channels['Education']   = client.get_channel(760897254613057667)
+        channels['Analytics']   = client.get_channel(764166414289993838)
+        channels['Website']     = client.get_channel(766758769191026688)
+        channels['Design']      = client.get_channel(764232860906684446)
+        channels['Infrastructure'] = client.get_channel(760897475514204160)
+        channels['Biz Dev']     = client.get_channel(826501840757194773)
+        channels['telegram-bridge']     = client.get_channel(761654190631288893)
     except:
         print("couldn't load the correct channels")
 
