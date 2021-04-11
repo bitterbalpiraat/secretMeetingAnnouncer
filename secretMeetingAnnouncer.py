@@ -23,7 +23,7 @@ import asyncio
 #initialize
 events = {}     # events dict with all upcoming events
 reminders = []  # reminderslist of all eventKeys with reminders on the way
-tMinus = 30      # Reminder time in minutes before the start of the meeting
+tMinus = 45      # Reminder time in minutes before the start of the meeting
 channels = {}   # dict of channels to message
 
 
@@ -110,11 +110,16 @@ async def scheduleReminders(eventKey, secondsTillEvent):
         
         
     # remind at event start
-    embedNoTimes = embedFactory(eventKey, False, False)
-    if committeeChannel:
-        await committeeChannel.send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
-    await channels['general'].send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
-    await channels['telegram-bridge'].send(events[eventKey]['subject']+" starts now in the Discord meeting room!")
+    
+    # check if event has not been deleted since the start of this function at tMinus:
+    if eventKey in events:
+    
+        embedNoTimes = embedFactory(eventKey, False, False)
+        # if committeeChannel:
+            # await committeeChannel.send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
+        await channels['general'].send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
+        await channels['events'].send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
+        await channels['telegram-bridge'].send(events[eventKey]['subject']+" starts now in the Discord meeting room!")
     
     
     # remove the event from the reminder list
@@ -148,13 +153,15 @@ async def getCal():
  
     # 1. populate the events variable with new or updated events
 
-    # Check to see if importedEvents[] is not empty
-    if len(importedEvents)>0:
-    
-        for event in importedEvents:
-    
-            eventKey = event['startUTC-5']+'_'+event['subject'] # generate unique dict key
-            events[eventKey] = event
+    if 'importedEvents' in locals(): #check if importedEvents is loaded correctly in memory
+
+        # Check to see if importedEvents[] is not empty
+        if len(importedEvents)>0:
+        
+            for event in importedEvents:
+        
+                eventKey = event['startUTC-5']+'_'+event['subject'] # generate unique dict key
+                events[eventKey] = event
     
     else: # no upcoming events
         print("Could not find any upcoming events!")
@@ -208,6 +215,7 @@ async def getCal_before():
         channels['Infrastructure'] = client.get_channel(760897475514204160)
         channels['Biz Dev']     = client.get_channel(826501840757194773)
         channels['telegram-bridge']     = client.get_channel(761654190631288893)
+        channels['events']     = client.get_channel(822489737154658359)
     except:
         print("couldn't load the correct channels")
 
