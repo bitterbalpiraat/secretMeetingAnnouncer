@@ -213,7 +213,7 @@ async def getCal_before():
         channels['Website']     = client.get_channel(766758769191026688)
         channels['Design']      = client.get_channel(764232860906684446)
         channels['Infrastructure'] = client.get_channel(760897475514204160)
-        channels['Biz Dev']     = client.get_channel(826501840757194773)
+        channels['Biz Dev']     = client.get_channel(821049382542639144)
         channels['telegram-bridge']     = client.get_channel(761654190631288893)
         channels['events']     = client.get_channel(822489737154658359)
     except:
