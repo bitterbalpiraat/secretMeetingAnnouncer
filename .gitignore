@@ -1,0 +1,5 @@
+.env
+credentials.json
+dummyAccount.txt
+token.json
+__pycache__

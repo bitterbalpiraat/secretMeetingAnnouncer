@@ -58,7 +58,7 @@ def embedFactory(eventKey, timesIncluded = True, footerIncluded = True):
         embedVar.add_field(name="Start time in GMT/UTC",  value=startUTC.strftime("%H:%M"), inline=False)
         embedVar.add_field(name="New York", value=startUTC.astimezone(gettz('America/New_York')).strftime("%H:%M"), inline=True)
         embedVar.add_field(name="London",   value=startUTC.astimezone(gettz('Europe/London')).strftime("%H:%M"), inline=True)
-        embedVar.add_field(name="Bangkok",  value=startUTC.astimezone(gettz('Asia/Bangkok')).strftime("%H:%M"), inline=True)
+        embedVar.add_field(name="Seoul",  value=startUTC.astimezone(gettz('Asia/Seoul')).strftime("%H:%M"), inline=True)
     
     return embedVar
 
