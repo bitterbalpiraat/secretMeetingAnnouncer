@@ -2,4 +2,7 @@
 credentials.json
 dummyAccount.txt
 token.json
+test.py
+testReformatting.ipynb
+.ipynb_checkpoints
 __pycache__
