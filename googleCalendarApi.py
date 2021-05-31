@@ -101,15 +101,15 @@ def parseDescr(text):
     text = text.replace('&nbsp;', ' ')
 
     # replace any possible html link tags
-    soup = BeautifulSoup(text)
+    soup = BeautifulSoup(text, 'html.parser')
 
-    if soup.p.a != None:
-        href = soup.p.a['href']
-        linktext = soup.p.a.text
+    if soup.a != None:
+        href = soup.a['href']
+        linktext = soup.a.text
 
-        soup.p.a.replace_with('[{}]({})'.format(linktext, href))
+        soup.a.replace_with('[{}]({})'.format(linktext, href))
 
-    return soup.p.text
+    return soup.text
 
 
 if __name__ == '__main__':
