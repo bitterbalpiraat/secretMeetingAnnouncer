@@ -99,7 +99,7 @@ async def scheduleReminders(eventKey, secondsTillEvent):
         # remind at tMinus
         embed = embedFactory(eventKey)
         await channels['general'].send(events[eventKey]['subject']+" starts in "+str(tMinus)+" minutes!", embed=embed)
-        await channels['telegram-bridge'].send(events[eventKey]['subject']+" starts in "+str(tMinus)+" minutes in the Discord meeting room!")
+        await channels['telegram-bridge'].send(events[eventKey]['subject']+" starts in "+str(tMinus)+" minutes in the Discord meeting room! Join: chat.scrt.network")
         if committeeChannel:
             await committeeChannel.send(events[eventKey]['subject']+" starts in "+str(tMinus)+" minutes!", embed=embed)
 
@@ -117,9 +117,9 @@ async def scheduleReminders(eventKey, secondsTillEvent):
         embedNoTimes = embedFactory(eventKey, False, False)
         # if committeeChannel:
         # await committeeChannel.send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
-        await channels['general'].send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
-        await channels['events'].send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
-        await channels['telegram-bridge'].send(events[eventKey]['subject']+" starts now in the Discord meeting room!")
+        await channels['general'].send(events[eventKey]['subject']+" starts now in the <#760903186067488779>!", embed=embedNoTimes)
+        await channels['events'].send(events[eventKey]['subject']+" starts now in the <#760903186067488779>!", embed=embedNoTimes)
+        await channels['telegram-bridge'].send(events[eventKey]['subject']+" starts now in the Discord meeting room! Join: chat.scrt.network")
 
     # remove the event from the reminder list
     if eventKey in reminders:
