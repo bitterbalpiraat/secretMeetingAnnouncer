@@ -80,7 +80,7 @@ def fetchUpcomingEvents():
             cleanEvent['classification'] = "Website"
         elif "Design" in cleanEvent['subject']:
             cleanEvent['classification'] = "Design"
-        elif "Infrastructure" in cleanEvent['subject']:
+        elif ("Infrastructure" or "infrastructure") in cleanEvent['subject']:
             cleanEvent['classification'] = "Infrastructure"
         elif "Biz Dev" in cleanEvent['subject']:
             cleanEvent['classification'] = "Biz Dev"

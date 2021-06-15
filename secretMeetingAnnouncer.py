@@ -117,9 +117,8 @@ async def scheduleReminders(eventKey, secondsTillEvent):
         embedNoTimes = embedFactory(eventKey, False, False)
         # if committeeChannel:
         # await committeeChannel.send(events[eventKey]['subject']+" starts now!", embed=embedNoTimes)
-        await channels['general'].send(events[eventKey]['subject']+" starts now in the <#760903186067488779>!", embed=embedNoTimes)
-        await channels['events'].send(events[eventKey]['subject']+" starts now in the <#760903186067488779>!", embed=embedNoTimes)
-        await channels['telegram-bridge'].send(events[eventKey]['subject']+" starts now in the Discord meeting room! Join: chat.scrt.network")
+        await channels['general'].send(events[eventKey]['subject']+" starts now in <#760903186067488779>!", embed=embedNoTimes)
+        await channels['telegram-bridge'].send(events[eventKey]['subject']+" starts now in the Discord meeting room! Join on: chat.scrt.network")
 
     # remove the event from the reminder list
     if eventKey in reminders:
@@ -215,7 +214,6 @@ async def getCal_before():
         channels['Infrastructure'] = client.get_channel(760897475514204160)
         channels['Biz Dev'] = client.get_channel(821049382542639144)
         channels['telegram-bridge'] = client.get_channel(761654190631288893)
-        channels['events'] = client.get_channel(822489737154658359)
     except:
         print("couldn't load the correct channels")
 
