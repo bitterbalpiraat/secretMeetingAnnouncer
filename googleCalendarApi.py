@@ -95,6 +95,8 @@ def fetchUpcomingEvents():
 
 def parseDescr(text):
     # replace breaktags with newlines
+    if(text == None):
+        return
     text = text.replace('<br>', '\n')
 
     # replace non breakings spaces
